@@ -1,0 +1,178 @@
+
+body {
+    margin: 0;
+    background-color: #f5f6f8;
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#logo {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #b0e0e6;
+    color: steelblue;
+}
+
+
+#hero {
+    text-align: center;
+    background-image: linear-gradient(rgba(70, 130, 180, 0.7), rgba(70, 130, 180, 0.7)),
+        url('../images/softwaredev.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+    color: white;
+    border-bottom: 4px solid #5ca0d3;
+}
+
+#hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+#hero a {
+    background-color: white;
+    color: steelblue;
+    border-radius: 5px;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#hero a:hover {
+    background-color: steelblue;
+    color: white;
+    transform: translateY(-3px);
+}
+
+
+main {
+    width: 90%;
+    margin: 40px auto;
+    max-width: 1100px;
+}
+
+section {
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(173, 216, 230, 0.3);
+    padding: 40px 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(70, 130, 180, 0.3);
+}
+
+h2 {
+    color: dodgerblue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.skill {
+    background-color: lavender;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 12px 15px;
+    text-align: center;
+    color: #333;
+    flex: 1 1 150px;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill:hover {
+    transform: translateY(-4px);
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(70, 130, 180, 0.2);
+}
+
+
+#contact p,
+#contact a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: dodgerblue;
+}
+
+
+footer {
+    background-color: steelblue;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border-top: 4px solid #5ca0d3;
+}
+
+footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #b0e0e6;
+}
